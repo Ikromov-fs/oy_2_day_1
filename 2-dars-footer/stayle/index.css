@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cantener{
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 1170px;
+}
+
+.footer{
+    background: #000;
+    width: 1440px;
+    height: 355px;
+    margin: 0px auto;
+}
+
+.div-list{
+    display: flex;
+}
+
+.footer_p{
+    width: 270px;
+    height: 61px;
+    color: #fff;
+
+    position: absolute;
+    top: 137px;
+}
+.logo{
+    position: absolute;
+    top: 44px;
+}
+.logos{
+    position: absolute;
+    top: 233px;
+}
+
+.footer_h1{
+    color: #fff;
+    font-size: 24px;
+
+}
+.footer_h1:hover{
+    border-bottom:solid 2px rgb(215, 12, 12);
+}
+
+.footer-img{
+    width: 270px;
+    height: 233px;
+
+    position: absolute;
+    top: 50px;
+    left: 650px;
+}
+.div-img{
+    position: absolute;
+    top: 46px;
+}
+.div-h2{
+    color: #fff;
+    font-size: 24px;
+}
+.div-h2:hover{
+    border-bottom: 2px solid red;
+}
+.footer-element{
+    width: 270px;
+    height: 122px;
+
+    position: absolute;
+    top: 50px;
+    left: 950px;
+}
+.footer-ul{
+    display: flex;
+    margin-top: 15px;
+    text-align: center;
+    width: 270px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.footer-ul li{
+    list-style: none;
+}
+.footer-ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.footer-ul li:nth-child(1){
+    width: 64px;
+    height: 24px;
+    background:  #F65050;
+}
+.footer-ul li:nth-child(2){
+    width: 57px;
+    height: 24px;
+    background:  #0088FF;
+}
+.footer-ul li:nth-child(3){
+    width: 63px;
+    height: 24px;
+    background:  #A56CBD;
+}
+.footer-ul li:nth-child(4){
+    width: 69px;
+    height: 24px;
+    background:   #997C00;
+}
+.footer-ul li:nth-child(5){
+    width: 105px;
+    height: 24px;
+    background: #FFB8B8;
+}
+.footer-ul li:nth-child(6){
+    width: 83px;
+    height: 24px;
+    background: #49CFE8;
+}
+.footer-ul li:nth-child(7){
+    width: 59px;
+    height: 24px;
+    background:  #4281FF;
+}
+
+.end{
+    width: 288px;
+    height: 211px;
+    position: absolute;
+    top: 50px;
+    right: 387px;
+}
+
+.end-h2{
+    color: #fff;
+    font-size: 24px;
+}
+.end-h2:hover{
+    border-bottom: solid 2px red;
+}
+.end-p{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.input{
+    width: 270px;
+    height: 40px;
+    margin-top: 10px;
+}
+.btn{
+    margin-top: 10px;
+    width: 270px;
+    height: 40px;
+    background: #F65050;
+    color: #fff;
+}
